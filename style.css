@@ -35,7 +35,7 @@ header{
 
 .logo{
     font-size: 30px;
-    font-weight: 800; /*Este es el grueso de las letras*/
+    font-weight: 1500; /*Este es el grueso de las letras*/
 }
 
 
@@ -82,7 +82,7 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: rgba(74, 28, 226, 0.696); /*fondo de color gradiente*/
+    background: linear-gradient(245.59deg, #38c0db 0%, #75a6bd 25%, #4e936c 75% ); /*fondo de color gradiente*/
     position: relative; /*Para que sea relativo al contenedor (Nos permite usar top, bottom, left y right)*/
     display: grid; /*Para que el hero se puede dividir en dos columnas*/
     grid-template-columns: 1fr 1fr; /*Las dos columnas*/
@@ -132,7 +132,7 @@ section{
 
 .hero-text a{
     display: inline-block;
-    background-color: #31494e;
+    background-color: #2290a7;
     border: 1px solid transparent;
     padding: 15px 30px;
     line-height: 1.4;
@@ -207,7 +207,7 @@ section{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: rgba(74, 28, 226, 0.696); /*fondo de color gradiente*/
+    background: linear-gradient(245.59deg, #38c0db 0%, #75a6bd 25%, #4e936c 75% ); /*fondo de color gradiente*/
     font-size: 40px;
     font-weight: 400px;
     margin-bottom: 25px;
